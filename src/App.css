@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  overflow: hidden;
+  margin: 0 auto ;
+}
+.App-header{
+  width: 57%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+h1{
+  color: #1B3854;
+  
+  font-size: 60.8261px;
+
+
+}
+h1 .Aphead{
+  color: #009BC0;
+  margin-right: 5px;
+
+}
+

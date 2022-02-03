@@ -1,0 +1,25 @@
+.navbar {width: 100vw;
+        display: flex;
+        padding: 20px 7%;
+        justify-content: space-between;
+
+
+}
+
+.logo {width: 50%;
+    
+
+}
+.link {display: flex;
+        width: 400px;
+        flex-direction: row;
+        justify-content:space-around;
+
+}
+.link a {
+    text-decoration: none;
+}
+
+.link a.active {
+    border-bottom: 1px solid green;
+}
