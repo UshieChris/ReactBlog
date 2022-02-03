@@ -28,7 +28,7 @@ function App() {
         <header className="App-header">
           <h1><span className='Aphead'>THE</span>BLOG</h1>
         </header>
-        <Switch>
+        
           <Route exact path = "/">
             <Diction items = {Nw_mame}  />
             
@@ -37,7 +37,7 @@ function App() {
             <Man />
            
           </Route>
-        </Switch>
+        
       </div>
     </Router>
   );
