@@ -4,7 +4,7 @@ import Navbar from './components/NavBar';
 import Man from './components/Man';
 import './App.css';
 import Mytest from './components/Mytest'
-import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 
@@ -28,16 +28,16 @@ function App() {
         <header className="App-header">
           <h1><span className='Aphead'>THE</span>BLOG</h1>
         </header>
-        
-          <Route exact path = "/">
-            <Diction items = {Nw_mame}  />
+        <Routes>
+          <Route exact path = "/" element = {<Diction items = {Nw_mame}  />} />
             
-          </Route>
-          <Route path = "/list">
-            <Man />
-           
-          </Route>
+            
         
+          <Route path = "/list" element = {<Man />} />
+            
+           
+  
+        </Routes>
       </div>
     </Router>
   );
