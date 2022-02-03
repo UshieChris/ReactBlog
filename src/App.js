@@ -30,10 +30,12 @@ function App() {
         </header>
         <Switch>
           <Route exact path = "/">
-            <Man />
+            <Diction items = {Nw_mame}  />
+            
           </Route>
           <Route path = "/list">
-            <Diction items = {Nw_mame}  />
+            <Man />
+           
           </Route>
         </Switch>
       </div>
