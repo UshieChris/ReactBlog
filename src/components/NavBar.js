@@ -14,7 +14,7 @@ const Navbar = () => {
                 
                 <a className="active" href="/list">BLOG</a>
 
-                <a href="/">CONTACT</a>
+                <a href="/contact">CONTACT</a>
             </div>
         </nav>
 

@@ -1,47 +1,33 @@
 import { useState } from 'react';
 import Diction from './components/Diction';
-import Navbar from './components/NavBar';
+
 import Man from './components/Man';
 import './App.css';
+import {Link} from 'react-router-dom';
 import Mytest from './components/Mytest'
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Homepage from './components/Homepage.js';
+import Contact from './components/Contact';
 
 
 
-const Nw_mame = [
-  {title : "john", d_text : "Welome home", date : new Date(2021, 4, 1)},
-  {title : "Chris", d_text : "Alluvium is wonderful ", date : new Date(2021, 10, 23)},
-  {title : "Alinco", d_text: "Our Boss s Awesome", date : new Date(2021, 11, 11)},
-];
 
-function App() {
+function App()
+ {
 
 
   return (
     <Router>
-      <div className="App">
-        <div className="navv">
-          <Navbar />
-        </div>
-       
-        
-        <header className="App-header">
-          <h1><span className='Aphead'>THE</span>BLOG</h1>
-        </header>
-        <Routes>
-          <Route exact path = "/" element = {<Diction items = {Nw_mame}  />} />
-            
-            
-        
+      
+      <Routes>
+          <Route exact path = "/" element = {<Homepage />} />
           <Route path = "/list" element = {<Man />} />
-            
-           
-  
-        </Routes>
-      </div>
+          <Route path = "/contact" element = {<Contact />} />
+      </Routes>
+        
     </Router>
   );
-}
+  }
 
 
 export default App;
