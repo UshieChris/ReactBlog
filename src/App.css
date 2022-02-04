@@ -1,30 +1,103 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+.maintitle {
+  font-size: xx-large;
+  margin: -15px auto;
+  width: 52%;
 }
+
+.alltog{
+  width: 2092;
+  height:794;
+  margin:8;
+}
+
+
+
+/* 
+.maintitle body {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+margin: 0;
+} */
+
+
 
 .App {
   width: 100vw;
   overflow: hidden;
   margin: 0 auto ;
 }
+
 .App-header{
-  width: 57%;
-  padding: 10px;
-  margin: 0 auto;
+  font-size: xx-large;
+  margin: -15px auto;
+  width: 52%;
+  
 }
 
-h1{
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 60%;
+}
+
+/* .App-header h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+} */
+
+/* h1{
   color: #1B3854;
   
   font-size: 60.8261px;
 
 
+} */
+.Aphead{
+  width: 196.74px;
+  height: 125px;
+  top: 186px;
+  left: 292px;
+  color :  #009bc0;
+
+} 
+
+.blogtittle{
+  width: 257.61px;
+  height: 125px;
+  top: 186px;
+  left: 499.61px;
+  color : #1B3854;
 }
-h1 .Aphead{
-  color: #009BC0;
-  margin-right: 5px;
+
+.mfCin {
+  display :flexbox;
+  color :red;
+  
+ 
+  background-color: #009bc0;
+  position: fixed;
+  right: 50px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  bottom: 20px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.17);
+  
 
 }
-
+.Cicon{
+  color:white;
+  font-size: 95px;
+}
