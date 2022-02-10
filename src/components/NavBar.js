@@ -20,9 +20,10 @@ const Navbar = () => {
             
             <div>
                 <ul className = "mynavb">
-                    <li><a href="/">HOME</a></li>
+                    <li><a className="active" href="/list">HOME</a></li>
+                    <li><a href="/">BLOG</a></li>
                 
-                    <li><a className="active" href="/list">BLOG</a></li>
+                    
 
                     <li><a href="/contact">CONTACT</a></li>
                 </ul>

@@ -1,0 +1,31 @@
+.homeg{
+    width:100%;
+    height: 278px;
+    padding-top: 1564px;
+    display: flex;
+    background-color: #1B3854;
+    justify-content : space-around;
+    padding:20px 8%
+    
+}
+.allup p{
+    color: white;
+}
+
+.sociom p{
+    color:white;
+}
+
+.contact p{
+    color:white;
+}
+
+.homeg div{
+    flex:1;
+}
+
+/* height: 278px;
+width: 1439px;
+left: 0px;
+top: 1564px;
+border-radius: 0px; */
