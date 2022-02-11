@@ -23,7 +23,7 @@ const Navbar = () => {
                 <ul className = "mynavb">
                     
                     <li>
-                    <Link to ="/">MAN</Link>
+                    <Link to ="/">HOME</Link>
                     </li>
                     
                     <li>
