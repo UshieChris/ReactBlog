@@ -57,7 +57,7 @@ color: #009BC0;
     height: 492px;
     left: 316px;
     top: 765px;
-    Corner-radius: 11.3px;
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -65,17 +65,15 @@ color: #009BC0;
 
 .right{
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
+  
     height: 80.63506317138672px;
     width: 40.31753158569336px;
-    left: 60.476318359375px;
-    top: 40.31755065917969px;
+   
     border-radius: 0px;
-    padding-left: 1224.48px;
+    padding-left: 1250.48px;
     padding-bottom: 800.05px;
     padding-top: 900px;
-    padding-right: 174.21px;
+    padding-right: 100.21px;
                             
 
 }
@@ -95,5 +93,5 @@ color: #009BC0;
     padding-top: 1344px;
     padding-left: 629px;
     padding-right: 630px;
-    padding-bottom:3000px;
+    padding-bottom:600px;
 }

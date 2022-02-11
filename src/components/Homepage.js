@@ -1,6 +1,6 @@
 import Diction from './Diction';
 import '../App.css';
-import './NavBar.css'
+import './NavBar.css';
 
 
 import Navbar from './NavBar';
@@ -18,7 +18,7 @@ function Homepage(){
 
     return (
       <div className="navv">
-          <Navbar />
+         
        
         {/* <div className="App-header">
           <h1>
