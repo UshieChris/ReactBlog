@@ -1,3 +1,8 @@
+.appall{
+overflow: hidden;
+margin: 0%;
+padding: 0%;
+}
 
 .maintitle {
   font-size: xx-large;
