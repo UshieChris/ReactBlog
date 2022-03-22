@@ -3,6 +3,8 @@ import '../App.css';
 import './NavBar.css';
 
 
+
+
 import Navbar from './NavBar';
 const blogs = [
     {title : "The Importance of Teamwork", d_text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim facilisis sit vestibulum, tempus nam orci. Massa ultrices eget sit ultrices eget turpis eget. Nibh est tellus elementum dignissim nisl. Tincidunt sodales quam vestibulum tincidunt morbi. Lacinia nunc imperdiet mauris, placerat nisl, eu sit volutpat at. ", date : new Date(2021, 4, 1)},

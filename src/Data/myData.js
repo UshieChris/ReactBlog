@@ -19,11 +19,13 @@ import nice from '../img/nice.png'
 //   },
 // ];
 
+
+
  export const blogs = [
-    {title : "The Importance of Teamwork", dtext : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim facilisis sit vestibulum, tempus nam orci. Massa ultrices eget . ",  img: fine, date : new Date(2021, 4, 1)},
-    {title : "I Love Alluvium very much", dtext : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", img:starr, date : new Date(2020, 2, 5)},
+    {title : "The Importance of Teamwork", dtext : "Lorem ipecterrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrtlit. Nunc dignissim facilisis sit vestibulum, tempus nam orci. Massa ultrices eget . ",  img: fine, date : new Date(2021, 4, 1)},
+    {title : "I Love Alluvium very much", dtext : "Lorem ipsum dosectetur adipiscing elit.", img:starr, date : new Date(2020, 2, 5)},
 
-    {title : "I lOVE Software Engineering", dtext : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim facilisis sit ", img: good, date : new Date(2019, 7, 9)},
+    {title : "I lOVE Software Engineering", dtext : "Lore elit. facilisis sit ", img: good, date : new Date(2019, 7, 9)},
 
-    {title : "Our Boss Love us too", dtext : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim facilisis sit vestibulum, tempus nam orci. Massa ultrices eget sit u", img: nice, date : new Date(2018, 3, 8)},
+    {title : "Our Boss Love us too", dtext : "Lorem  ipsum fffffffffffffffffffffffffffffffffffffffffffffffffffffdtetur adipiscingm orci. Massa ultrices eget sit u", img: nice, date : new Date(2018, 3, 8)},
   ];

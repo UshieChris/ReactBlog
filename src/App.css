@@ -1,7 +1,13 @@
+*{
+  padding: 0;
+  margin :0;
+}
+
+
+
 .appall{
 overflow: hidden;
-margin: 0%;
-padding: 0%;
+
 }
 
 .maintitle {
@@ -29,7 +35,7 @@ margin: 0;
 
 
 .App {
-  width: 100vw;
+  width: 50vw;
   overflow: hidden;
   margin: 0 auto ;
 }

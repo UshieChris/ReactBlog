@@ -3,29 +3,83 @@
     height: 700px;
     background-color: black; */
     position: absolute;
-    width: 806px;
-    height: 492px;
+    width: 700px;
+    height: 20px;
     left: 316px;
     top: 765px;
-    overflow: hidden;
+
+
+    
+    /* overflow:hidden; */
     
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+@media only screen and (max-width: 480px) {
+    .carousel {
+        /* width: 60%;
+        height: 700px;
+        background-color: black; */
+        position: absolute;
+        width: 50%;
+        height: 30%;
+        left: 30%;
+        right: 30%;
+        top: 565px;
+    
+    
+        
+        /* overflow:hidden; */
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} 
+
+
 .carouselInner {
-    /* height: 100%;
-    width: 100%; */
+     height: 500px;
+    width: 100%;  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    word-wrap: break-word;
 }
+
+
+
+@media only screen and (max-width: 480px) {
+    
+.carouselInner {
+   height: 80%;
+   width: 100%;  
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   word-wrap: break-word;
+}
+} 
+/* .titoo{
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 480px) {
+    .titoo{
+        color: #FFFFFF;
+        font-size: xx-small;
+        font-weight: 0px;
+    }
+} */
 
 .carouselInner .left {
     flex: 5%;
-    height: 100%; 
+  
+    margin-left: -70px;
     /* background-color: rgb(0, 0, 0, 0.6); */
     display: grid;
     place-items: center;
@@ -33,20 +87,98 @@
     cursor: pointer;
     padding-bottom: 300px;
     margin-bottom: 300px;
-    padding-top: 250px;
+    padding-top: 210px;
+}
+
+
+@media only screen and (max-width: 480px){
+    .carouselInner .left {
+        flex: 5%;
+      
+        margin-left: -70px;
+        /* background-color: rgb(0, 0, 0, 0.6); */
+        display: grid;
+        place-items: center;
+        color: white;
+        cursor: pointer;
+        padding-bottom: 100px;
+        margin-bottom: 50px;
+        padding-top: 20%;
+    }
+    
 }
 
 .carouselInner .center {
-    flex: 80%;
-    height: 806px;
-    width: 500; 
+  
+    height: 50px;
+    width: 100px; 
     /* display: grid; */
     place-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    text-align-last: center;
+    /* text-align: justify; */
+    text-align-last:center;
+    justify-content: left;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 300px;
+    /* padding-right: 20px; */
+    
+    white-space:nowrap;
+    word-wrap: break-word
+    
     
 }
+
+@media only screen and (max-width: 480px){
+    .carouselInner .center {
+  
+        height: 10%;
+        width: 15%; 
+        /* display: grid; */
+        place-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        /* text-align: justify; */
+        text-align-last:center;
+        justify-content: left;
+        margin-right: 50px;
+        margin-left: 10px;
+        margin-top: 100px;
+        background-color: black;
+        font-size: xx-small;
+        /* padding-right: 20px; */
+        
+        white-space:nowrap;
+        word-wrap: break-word
+        
+    }
+}
+
+.center h1{
+    color: rgba(255, 255, 255, 0.44);
+    font-size: 20px;
+
+}
+@media only screen and (max-width: 480px){
+    .center h1{
+        color: rgba(255, 255, 255, 0.44);
+        font-size:xx-small;
+    
+    }
+
+}
+.center p{
+    color: #FFFFFF8C;
+
+}
+
+@media only screen and (max-width: 480px){
+    .center p{
+        color: #FFFFFF8C;
+        font-size:xx-small
+    
+    }
+}
+
 
 /* h1 {
     font-size: 5rem;
@@ -69,14 +201,92 @@ p {
     border-radius: 9px;
 }  */
 .carouselInner .right {
-     flex: 5%;
-    height: 100%; 
+     /* flex: -30%; */
+    margin-left: 500px;
+    margin-top: 0px;
+    
+    
+ 
+    /* width: 900%; */
     /* background-color: rgb(0, 0, 0, 0.6); */
-    display: grid;
+    /* display: grid; */
     place-items: center;
     color: white;
     cursor: pointer;
-    padding-bottom: 300px;
-    margin-bottom: 300px;
-    padding-top: 250px;
+    
+    padding-top: 210px;
+}
+
+@media only screen and (max-width: 480px){
+    .carouselInner .right {
+        /* flex: -30%; */
+       margin-left: 130px;
+       margin-top: 0px;
+       
+       
+       
+    
+       /* width: 900%; */
+       /* background-color: rgb(0, 0, 0, 0.6); */
+       /* display: grid; */
+       place-items: center;
+       color: white;
+       cursor: pointer;
+       
+       padding-top: 40px;
+   }
+}
+
+
+.Carodot{
+    width:10px;
+    height:10px;
+    border-radius: 50%;   
+    background: #C4C4C4;
+    margin-right: 3px;
+    
+
+}
+
+.CaroCon{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+    height: 00px;
+    background-color: white;
+}
+
+.Active{
+    width:10px;
+    height:10px;
+    border-radius: 50%;   
+    background-color: black;
+    margin-right: 3px;
+}
+
+.titoo{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0.035em;
+    text-align: left;
+
+}
+
+@media only screen and (max-width: 480px){
+    .titoo{
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        line-height: 25px;
+        letter-spacing: 0.035em;
+        text-align: left;
+    
+    }
+    
 }

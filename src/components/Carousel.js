@@ -24,7 +24,7 @@ function Carousel(props) {
           onClick={() => {
             currImg > 0 && setCurrImg(currImg - 1);
           }}>
-          <ArrowBackIosIcon style={{ fontSize: 30 }} />
+          <ArrowBackIosIcon style={{ fontSize: 60 }} />
         </div>
         <div className="center">
           {/* <h1>{blogs[currImg].time}</h1> */}
@@ -32,9 +32,9 @@ function Carousel(props) {
           <h1>
           {blogs[currImg].date.toLocaleDateString()}
           </h1>
-          <h1>
+          <div className="titoo">
           {blogs[currImg].title}
-          </h1>
+          </div>
 
           <p>{blogs[currImg].dtext}
           </p>
@@ -46,8 +46,13 @@ function Carousel(props) {
             currImg < blogs.length - 1 && setCurrImg(currImg + 1);
           }}
         >
-          <ArrowForwardIosIcon style={{ fontSize: 30 }} />
+          <ArrowForwardIosIcon style={{ fontSize: 60 }} />
         </div>
+      </div>
+      <div className="CaroCon">
+        {blogs.map((blog, index)=>{
+          return <div className={index == currImg? "Active":"Carodot"} key={index}></div>
+      })}
       </div>
     </div>
   );

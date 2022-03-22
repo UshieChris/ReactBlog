@@ -1,3 +1,10 @@
+
+ body{
+  overflow-x: hidden;
+} 
+
+
+
 .gen {
   align-items: center;
   display: flex;
