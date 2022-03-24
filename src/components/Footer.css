@@ -8,6 +8,21 @@
     padding:20px 8%
     
 }
+
+@media only screen and (max-width: 480px){
+    .homeg{
+        width:90%;
+        height: 178px;
+        padding-top: 1564px;
+        margin-top: 770px;
+        display: flex;
+        background-color: #1B3854;
+        justify-content : space-around;
+        padding:20px 8%
+        
+    }
+}
+
 .allup p{
     color: white;
 }
