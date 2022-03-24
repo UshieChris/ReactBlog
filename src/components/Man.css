@@ -89,19 +89,18 @@ color: #009BC0;
     
 }
 
-
 .myh h2{
     overflow: hidden;
     position: absolute;
     width: 359px;
     height: 97.83px;
-    left: 500px;
-    top: 613px;
+    left: 490px;
+    top: 633px;
 
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 64.329px;
+    font-size:60px;
     line-height: 146.5%;
 /* or 94px */
 
@@ -109,6 +108,30 @@ color: #009BC0;
 
     color: #000000;
     overflow: hidden;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .myh h2{
+        overflow: hidden;
+        position: absolute;
+        width: 359px;
+        height: 97.83px;
+        left: 70px;
+        top: 513px;
+    
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size:40px;
+        line-height: 146.5%;
+    /* or 94px */
+    
+        letter-spacing: -0.01em;
+    
+        color: #000000;
+        overflow: hidden;
+    }
 }
 
 .imgg{
@@ -170,3 +193,5 @@ color: #009BC0;
         padding-bottom:100px;
     }
 } 
+
+
