@@ -17,8 +17,8 @@ const Footer = () => {
             <div className = "sociom">
                 <p>Get in touch</p>
                 <div className = "socio">
-                    <img src = {facebook} alt = "facebook" />
-                    <img src = {twitter} alt = "twitter" />
+                    <img src = {facebook} alt = "facebook" />&nbsp; &nbsp;
+                    <img src = {twitter} alt = "twitter" />&nbsp; &nbsp;
                     <img src = {instagram} alt = "instagram" />
                 </div>
 
