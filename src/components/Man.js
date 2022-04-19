@@ -41,7 +41,11 @@ function Man(){
             <div className = "left">
                 <img src= {left} alt ="left" />
             </div> */}
-            <Carousel />
+
+            <div className='carocaro'>
+                <Carousel />
+            </div>
+            
 
             <div className = "mydot">
                 {/* <img src = {Group} alt = "Group" /> */}

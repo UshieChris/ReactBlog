@@ -10,7 +10,17 @@ function Carousel(props) {
   // const year = props.date.getFullYear();
 
   // let time = `${day} ${month} ${year}`
+  
   const [currImg, setCurrImg] = useState(0);
+
+  const newClick = () =>{
+    for(let i = 0; i<blogs.length; i++){
+      if (i == currImg){
+        setCurrImg(i)
+      }
+      
+    }
+  }
 
   return (
     <div className="carousel">
@@ -43,13 +53,16 @@ function Carousel(props) {
           <ArrowForwardIosIcon style={{ fontSize: 60 }} />
         </div>
       </div>
-      <div className="CaroCon">
+      <div className="CaroCon"
+        onClick={ newClick }
+        >
+
         {blogs.map((blog, index) => {
           return (
-            <div
+            <div 
               className={index == currImg ? "Active" : "Carodot"}
-              key={index}
-            ></div>
+              key={index}>
+            </div>
           );
         })}
       </div>
@@ -58,3 +71,6 @@ function Carousel(props) {
 }
 
 export default Carousel;
+
+
+// 

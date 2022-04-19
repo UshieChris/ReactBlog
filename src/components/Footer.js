@@ -14,11 +14,12 @@ const Footer = () => {
                 <p>Product of Alluvium Labs</p>
                 
             </div>
-            <div className = "sociom">
+            {/* &nbsp; &nbsp; */}
+            <div className="sociom">
                 <p>Get in touch</p>
                 <div className = "socio">
-                    <img src = {facebook} alt = "facebook" />&nbsp; &nbsp;
-                    <img src = {twitter} alt = "twitter" />&nbsp; &nbsp;
+                    <img src = {facebook} alt = "facebook" />
+                    <img src = {twitter} alt = "twitter" />
                     <img src = {instagram} alt = "instagram" />
                 </div>
 

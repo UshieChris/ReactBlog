@@ -21,21 +21,76 @@
         padding:20px 8%
         
     }
+    .socio{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .allup p{
+        color: #FFFFFFA6;
+    }
+
+    .socio img{
+        margin: 5px;
+    }
+
+    .contact {
+        color:#FFFFFFA6;
+        margin-top: 10px;
+    }
+    
+    .contact p{
+        color:#FFFFFFA6;
+        
+    }
+
+    .allup {
+        margin-top: 10px;
+    }
+    
+    .allup p{
+        color: #FFFFFFA6;
+    }
+}
+
+
+.socio{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.socio img{
+    margin: 10px;
+}
+
+
+.allup {
+    margin-top: 20px;
 }
 
 .allup p{
-    color: white;
+    color: #FFFFFFA6;
 }
 
 .sociom p{
-    color:white;
+    color:#FFFFFFA6;
     margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 8px;
+    
     
 }
 
 
+.contact {
+    color:#FFFFFFA6;
+    margin-top: 20px;
+}
+
 .contact p{
-    color:white;
+    color:#FFFFFFA6;
+    
 }
 
 .homeg div{

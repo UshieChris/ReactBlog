@@ -25,11 +25,11 @@
         height: 700px;
         background-color: black; */
         position: absolute;
-        width: 50%;
+        width: 60%;
         height: 30%;
         left: 23%;
         right: 30%;
-        top: 665px;
+        top: 795px;
         bottom: 1000px;
     
     
@@ -39,7 +39,10 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+      
+    
     }
+  
 } 
 
 
@@ -67,7 +70,8 @@
    background-repeat: no-repeat;
    background-size: cover;
    display: flex;
-   word-wrap: break-word;
+ 
+  
    
 }
 } 
@@ -99,7 +103,7 @@
 
 
 @media only screen and (max-width: 480px){
-    .carouselInner .left {
+     .left {
         flex: 5%;
       
         margin-left: -90px;
@@ -142,25 +146,28 @@
 @media only screen and (max-width: 480px){
     .carouselInner .center {
   
-        height: 10%;
-        width: 15%; 
+        height: 40%;
+        width: 95%; 
         /* display: grid; */
         place-items: center;
         font-family: Arial, Helvetica, sans-serif;
         /* text-align: justify; */
         text-align-last:center;
         justify-content: left;
-        margin-right: 150px;
-        margin-left: 10px;
+        margin-right: 70%;
+        margin-left: 25px;
         margin-top: 100px;
-        background-color: black;
+        
         font-size: xx-small;
         /* padding-right: 20px; */
         
-        white-space:nowrap;
-        word-wrap: break-word
+        
+        overflow-x: hidden;
+     
         
     }
+
+
 }
 
 .center h1{
@@ -304,6 +311,8 @@ p {
 }
 
 @media only screen and (max-width: 480px){
+
+    
     .titoo{
         color: #FFFFFF;
         font-family: Poppins;
@@ -314,5 +323,102 @@ p {
         text-align: left;
     
     }
+
     
+    
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+
+
+
+    .Carodot{
+        width:10px;
+        height:10px;
+        border-radius: 50%;   
+        background: #C4C4C4;
+        margin-right: 3px;
+        
+    
+    }
+    
+    .CaroCon{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5px;
+        height: 00px;
+        margin-bottom: -200px;
+        margin-right: -100px;
+        background-color: white;
+    }
+    
+    .Active{
+        width:10px;
+        height:10px;
+        border-radius: 50%;   
+        background-color: black;
+        margin-right: 3px;
+    }
+    .carouselInner {
+        
+        width: 60%;
+        margin-left: -100px;
+        
+        background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       display: flex;
+       justify-content: space-between;
+       background-color: black;
+       /* word-wrap: break-word; */
+   }
+
+   .carouselInner .center {
+    position: absolute;
+    height: 1000%;
+    width: 40%; 
+    
+    /* display: grid; */
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: justify; */
+    text-align-last:center;
+    justify-content: left;
+    margin-right: 70%;
+    margin-left: 0px;
+    margin-top: 300px;
+    
+    font-size: xx-small;
+    /* padding-right: 20px; */
+    
+ 
+    overflow-x: hidden;
+ 
+    
+}
+
+.titoo{
+    
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    line-height: 25px;
+   
+    margin-top: 10px;
+    text-align: center;
+ 
+    padding-left: 0px;
+    text-align: left;
+
+    color: white; 
+
+}
+.center p{
+    color: #FFFFFF8C;
+    font-size:xx-small
+
+}
+
 }
