@@ -40,7 +40,7 @@ color: #009BC0;
         letter-spacing: 0.035em;
         overflow: hidden;
     
-    color: #009BC0;
+        color: #009BC0;
     }
 } 
 
@@ -95,7 +95,7 @@ color: #009BC0;
     }
 
     
-.myh h2{
+    .myh h2{
     
     position: absolute;
     width: 159px;
@@ -190,15 +190,15 @@ color: #009BC0;
       
         width: 359px;
         height: 97.83px;
-        left: 90px;
-        top: 583px;
+        left: 118px;
+        top: 600px;
         margin-top: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     
         font-family: Poppins;
         font-style: normal;
         font-weight: bold;
-        font-size:40px;
+        font-size:35px;
         line-height: 146.5%;
     /* or 94px */
     

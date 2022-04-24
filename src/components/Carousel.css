@@ -146,23 +146,23 @@
 @media only screen and (max-width: 480px){
     .carouselInner .center {
   
-        height: 40%;
+        height: 30%;
         width: 95%; 
-        /* display: grid; */
+
         place-items: center;
         font-family: Arial, Helvetica, sans-serif;
-        /* text-align: justify; */
+        text-align: justify;
         text-align-last:center;
         justify-content: left;
         margin-right: 70%;
         margin-left: 25px;
-        margin-top: 100px;
+        margin-top: 120px;
         
         font-size: xx-small;
         /* padding-right: 20px; */
         
         
-        overflow-x: hidden;
+        
      
         
     }
@@ -177,8 +177,8 @@
 }
 @media only screen and (max-width: 480px){
     .center h1{
-        color: rgba(255, 255, 255, 0.44);
-        font-size:xx-small;
+        color: rgba(255, 255, 255, 0.74);
+        font-size:x-small
     
     }
 
@@ -254,7 +254,7 @@ p {
         cursor: pointer;
         
         padding-top: 210px; */
-        /* margin-left: 150px; */
+        margin-left: -150px; 
     
         /* flex: 5%; */
         margin-right: -70px;
@@ -316,6 +316,7 @@ p {
     .titoo{
         color: #FFFFFF;
         font-family: Poppins;
+        width: 100%;
         font-size: 10px;
         font-style: normal;
         line-height: 25px;
